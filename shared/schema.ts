@@ -2,6 +2,38 @@ import { pgTable, text, varchar } from "drizzle-orm/pg-core";
 import { sql } from "drizzle-orm";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
+import mongoose from "mongoose";
+
+// Mongoose Schemas for MongoDB
+const ServiceSchema = new mongoose.Schema({
+  title: String,
+  tagline: String,
+  icon: String,
+  slug: { type: String, unique: true }
+});
+
+const ProjectSchema = new mongoose.Schema({
+  serviceId: String,
+  name: String,
+  shortDescription: String,
+  fullDescription: String,
+  imageUrl: String,
+  galleryImages: [String],
+  clientName: String,
+  clientIndustry: String,
+  clientLocation: String,
+  websiteUrl: String,
+  duration: String,
+  completedDate: String,
+  technologies: [String],
+  database: String,
+  isMobileFirst: Boolean,
+  features: [String],
+  outcomes: [String]
+});
+
+export const ServiceModel = mongoose.models.Service || mongoose.model("Service", ServiceSchema);
+export const ProjectModel = mongoose.models.Project || mongoose.model("Project", ProjectSchema);
 
 export const users = pgTable("users", {
   id: varchar("id")
