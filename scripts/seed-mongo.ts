@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { services, projects, ServiceModel, ProjectModel } from "./shared/schema";
+import { services, projects, ServiceModel, ProjectModel } from "../shared/schema";
 import * as dotenv from "dotenv";
 
 dotenv.config();
