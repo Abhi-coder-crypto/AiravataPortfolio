@@ -47,4 +47,3 @@ expertMode = true
 [userenv]
 
 [userenv.shared]
-MONGODB_URI = "mongodb+srv://abhijeet18012001_db_user:Z5bgN0HllHWQJl8o@portfolio.zafea2m.mongodb.net/?appName=Portfolio"
