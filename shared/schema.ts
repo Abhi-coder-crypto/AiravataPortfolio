@@ -13,7 +13,7 @@ const ServiceSchema = new mongoose.Schema({
 });
 
 const ProjectSchema = new mongoose.Schema({
-  serviceId: String,
+  serviceId: { type: mongoose.Schema.Types.ObjectId, ref: 'Service' },
   name: String,
   shortDescription: String,
   fullDescription: String,

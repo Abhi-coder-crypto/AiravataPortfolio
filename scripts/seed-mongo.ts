@@ -36,10 +36,13 @@ async function seed() {
     });
 
     // Seed Projects
-    const projectsToSeed = projects.map(({ id, serviceId, ...p }) => ({
-      ...p,
-      serviceId: serviceMap.get(serviceId) || serviceId
-    }));
+    const projectsToSeed = projects.map(({ id, serviceId, ...p }) => {
+      const mongoServiceId = serviceMap.get(serviceId);
+      return {
+        ...p,
+        serviceId: mongoServiceId ? new mongoose.Types.ObjectId(mongoServiceId) : null
+      };
+    });
 
     await ProjectModel.insertMany(projectsToSeed);
     console.log(`Seeded ${projectsToSeed.length} projects`);
