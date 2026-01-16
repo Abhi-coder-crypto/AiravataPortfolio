@@ -1,0 +1,49 @@
+{
+  "_id": {
+    "$oid": "6969f58daf5a472490b66ea4"
+  },
+  "slug": "barrel-born-digital-menu",
+  "category": "website-development",
+  "gallery": null,
+  "image": "/attached_assets/image_1768551190006.png",
+  "name": "Barrel Born Digital Menu",
+  "serviceSlug": "website-development",
+  "clientIndustry": "Hospitality / F&B",
+  "clientLocation": "Mumbai, India",
+  "clientName": "Barrel Born",
+  "completedDate": "October 2025",
+  "database": "MongoDB",
+  "duration": "2 weeks",
+  "features": [
+    "Interactive Digital Menu: Categorized display of food and beverages with high-resolution imagery.",
+    "Real-time Updates: Easy-to-use backend for instant menu modifications.",
+    "Mobile-Optimized Interface: Seamless experience across all mobile devices for on-table browsing.",
+    "QR Code Integration: Quick access for guests via table-top QR codes.",
+    "Elegant Brand Storytelling: Dedicated sections for brand heritage and culinary philosophy."
+  ],
+  "fullDescription": "A high-performance digital menu ecosystem designed for Barrel Born. The platform offers an interactive and visually appealing menu experience, allowing guests to explore culinary offerings with ease. Integrated with modern web technologies, it ensures seamless updates and a premium digital presence for the brand.",
+  "galleryImages": [
+    "/attached_assets/barrel-born-1.png",
+    "/attached_assets/barrel-born-2.png"
+  ],
+  "imageUrl": "/attached_assets/barrel-born-hero.png",
+  "isMobileFirst": true,
+  "outcomes": [
+    "Enhanced Guest Engagement: Significant increase in menu exploration and interaction.",
+    "Operational Efficiency: Reduced dependency on physical menus and streamlined update process.",
+    "Premium Digital Authority: Established a sophisticated online presence aligned with the brand's identity."
+  ],
+  "serviceId": {
+    "$oid": "6968bd7db5d86873b1beda1b"
+  },
+  "shortDescription": "A sophisticated digital menu platform for Barrel Born, enhancing guest engagement and operational efficiency.",
+  "technologies": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  "websiteUrl": "https://barrelborn.com"
+}

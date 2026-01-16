@@ -1,0 +1,59 @@
+{
+  "_id": {
+    "$oid": "6968bd80b5d86873b1beda33"
+  },
+  "serviceId": {
+    "$oid": "6968bd7db5d86873b1beda1b"
+  },
+  "name": "Ming's Digital Menu",
+  "shortDescription": "Specialized digital-first menu platform for interactive guest ordering, featuring one-tap social media integration and voice search.",
+  "fullDescription": "Ming's Digital Menu is a specialized restaurant product designed to revolutionize the in-house dining experience. This digital menu is meticulously crafted for mobile devices, providing a seamless and interactive interface for guests. It features one-tap social media integration, direct Google review access, a welcoming brand sound, and innovative voice-to-search functionality. The platform organizes the menu with high-quality photos, detailed descriptions, and clear pricing across various categories and filters, ensuring an effortless discovery process for diners.",
+  "imageUrl": "/attached_assets/menu.mingschinesecuisine.in_(iPhone_14_Pro_Max)_1767560522258.png",
+  "galleryImages": [
+    "/attached_assets/menu.mingschinesecuisine.in_(iPhone_14_Pro_Max)_1767560522258.png",
+    "/attached_assets/menu.mingschinesecuisine.in_(iPhone_14_Pro_Max)_(2)_1767562543405.png",
+    "/attached_assets/menu.mingschinesecuisine.in_(iPhone_14_Pro_Max)_(4)_1767560522259.png",
+    "/attached_assets/menu.mingschinesecuisine.in_(iPhone_14_Pro_Max)_(5)_1767560522259.png",
+    "/attached_assets/menu.mingschinesecuisine.in_(iPhone_14_Pro_Max)_(6)_1767560522259.png",
+    "/attached_assets/menu.mingschinesecuisine.in_(iPhone_14_Pro_Max)_(7)_1767560522259.png",
+    "/attached_assets/menu.mingschinesecuisine.in_(iPhone_14_Pro_Max)_(8)_1767560522260.png"
+  ],
+  "clientName": "Ming's Chinese Cuisine",
+  "clientIndustry": "Hospitality / Food-Tech",
+  "clientLocation": "Mumbai, India",
+  "websiteUrl": "https://menu.mingschinesecuisine.in/menu",
+  "duration": "4 weeks",
+  "completedDate": "July 2025",
+  "technologies": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "Web Audio API",
+    "Web Speech API",
+    "MongoDB",
+    "Hostinger VPS"
+  ],
+  "database": "MongoDB",
+  "isMobileFirst": true,
+  "features": [
+    "One-Tap Social Media Integration: Instant connection to Instagram, Facebook, and YouTube",
+    "One-Tap Google Review: Streamlined feedback loop for diners to rate the restaurant instantly",
+    "Welcoming Brand Sound: Custom audio experience upon entering the digital menu",
+    "Voice-to-Search: AI-powered search functionality allowing users to find dishes using voice commands",
+    "Dynamic Categories & Filters: Effortless navigation through Soups, Starters, Main Course, and more with Veg/Non-Veg filters",
+    "Visual Menu with Rich Content: High-definition food photography with detailed descriptions and pricing",
+    "Mobile-Optimized Interface: Vertical-scrolling design specifically engineered for smartphone browsing",
+    "Interactive Restaurant Information: Easy access to address, contact details, and operational hours",
+    "Deployment: Securely hosted on Hostinger VPS for high performance and reliability"
+  ],
+  "outcomes": [
+    "Revolutionized the in-house ordering experience with interactive digital discovery",
+    "Significant increase in Google review engagement via integrated one-tap feedback",
+    "Enhanced brand identity through custom audio and high-quality visual storytelling",
+    "Improved operational efficiency with reduced physical menu reliance and faster dish discovery",
+    "Highly accessible interface catering to modern diners with voice search capabilities"
+  ],
+  "__v": 0
+}
