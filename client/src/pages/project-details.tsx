@@ -226,8 +226,8 @@ export default function ProjectDetails() {
     setCurrentImageIndex((prev) => (prev - 1 + allImages.length) % allImages.length);
   };
   
-  const desktopThumbnailCount = 6;
-  const mobileThumbnailCount = 4;
+  const desktopThumbnailCount = 12;
+  const mobileThumbnailCount = 8;
   const desktopThumbnails = galleryImages.slice(0, desktopThumbnailCount);
   const mobileThumbnails = galleryImages.slice(0, mobileThumbnailCount);
   const hasMoreDesktopImages = galleryImages.length > desktopThumbnailCount;
